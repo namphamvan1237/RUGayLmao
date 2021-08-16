@@ -19,8 +19,8 @@ function firstQuestion(){
         imageUrl: '../img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
-        background: '#fff url("../img/iput-bg.jpg")',
-        imageAlt: 'Custom image',
+        background: '#000000 url("../img/iput-bg.jpg")',
+        imageAlt: 'Image',
       }).then(function(){
         $('.content').show(200);
       })
